@@ -258,6 +258,7 @@ module.exports = function(grunt) {
             '.gitignore',
             '*.html',
             '*.tpl',
+            '*.json',
             'css/*',
             'views/{,*/}*',
             'images/{,*/}*',

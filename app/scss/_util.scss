@@ -123,12 +123,12 @@
 
 @mixin vertical-align($top:50%){
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  // top: 50%;
+  -webkit-transform: translateY($top);
+  -moz-transform: translateY($top);
+  -o-transform: translateY($top);
+  -ms-transform: translateY($top);
+  transform: translateY($top);
 }
 
 
@@ -171,7 +171,6 @@
   }
 }
 
-
-
+//677-1015=2, 1016-1351=3,
 
 
