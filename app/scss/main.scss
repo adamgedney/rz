@@ -194,6 +194,7 @@ header{
 	margin-top: 90px;
 	@include col(10);
 	@include col_ctr(10);
+	min-height: 1500px;
 
 }
 

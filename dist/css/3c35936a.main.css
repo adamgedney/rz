@@ -374,6 +374,7 @@ header h1 {
   width: 83.3333333%;
   margin-left: 8.33333335%;
   margin-right: 8.33333335%;
+  min-height: 1500px;
 }
 
 li.item {
