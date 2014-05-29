@@ -5,8 +5,7 @@
 
 var App = angular.module('repzio', [
 	'ngRoute',
-	'ngResource',
-	'ImageZoom']);
+	'ngResource']);
 
 
 

@@ -28,11 +28,11 @@
 
 
 			<section id="products-list">
-				<ul class="cf">
-					<li ng-click="toggleDetails($index)"  class="item cf" ng-repeat="item in items">
+				<div class="cf" id="block-container" >
+					<div ng-click="toggleDetails($index)" class="item cf" ng-repeat="item in items">
 
 						<!-- Image zoom directive target   -?h=300&w=300&mode=max-->
-						<img ng-hide="showDetails === $index" src="{{item.PhotoName}}?h=220&w=300&mode=max" alt="{{item.ItemName}}" />
+						<img ng-hide="showDetails === $index" ng-src="{{item.PhotoName}}?h=220&w=300&mode=max" alt="{{item.ItemName}}" />
 
 						<div ng-show="showDetails === $index" class="item-details" >
 							<ul>
@@ -46,8 +46,8 @@
 							</ul>
 
 						</div><!-- /.item-details-->
-					</li>
-				</ul>
+					</div><!-- /.item-->
+				</div><!-- /#block-container-->
 			</section>
 
 
